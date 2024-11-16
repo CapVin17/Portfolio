@@ -11,21 +11,21 @@ const Projects = () => {
         My Projects
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
-        <a href="https://github.com/CapVin17/Scribble-Space-Project">
+        <a href="https://github.com/CapVin17/Scribble-Space-Project" target='_blank'>
           <ProjectCard
             src="/medium.png"
             title="Scribble Space"
             description="A platform where you can share your descriptive blogs whatever knowledge you possess just jot it down and help others as well as you can see what others have been posting for a while and interact with them."
           />
         </a>
-        <a href="https://ast-rule-engine-blush.vercel.app/">
+        <a href="https://ast-rule-engine-blush.vercel.app/" target='_blank'>
           <ProjectCard
             src="/astruleengine.png"
             title="AST Rule Engine"
             description="AST Rule Engine is an implementation of Tree DS wherein users rules are converted into a tree and a user can either provide a single or multiple rules. Based upon the that, tree will evaluate the data correspondingly, respond with either true or false in JSON format"
           />
         </a>
-        <a href="https://exchange.www-vineetsinghvs.workers.dev/ui">
+        <a href="https://exchange.www-vineetsinghvs.workers.dev/ui" target='_blank'>
           <ProjectCard
             src="/exchange.png"
             title="Exchange"
